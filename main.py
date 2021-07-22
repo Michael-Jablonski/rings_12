@@ -26,7 +26,7 @@ UNKNOWN = 99
 NUMBER_OF_POSSIBILITIES = 24      # 12 rings * 2 (light or heavy)
 
 # All logic is done within a class to encapsulate the variables, avoiding global variables and
-# passing lots of parameters around.
+# avoiding the passing lots of parameters around.
 
 class Rings:
 
