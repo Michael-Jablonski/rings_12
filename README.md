@@ -3,7 +3,7 @@
 
 This Python program solves the 12 rings problem: 
 
-"You are given 12 rings and one of these rings is different from the others, but you don't know if it is lighter or heavier than the others. Identify the special ring in three weighing and determine whether it is lighter or heavier than the others."  
+"You are given 12 rings and one of these rings is different from the others, but you don't know if it is lighter or heavier than the others. Identify the special ring in three weighings and determine whether it is lighter or heavier than the others."  
 
 Problem Source, “An Engineering Approach to Digital Design,” by William Fletcher.
 
