@@ -1,17 +1,21 @@
 # This program has logic to solve the 12 rings problem.
 
-# "You are given 12 rings and ond one of these rings is different from the others, but you don't know if it is
-# lighter or heavier than the others. Identify the special ring in three weighings and determine whether it is lighter
-# or heavier than the others."
+# You are given 12 rings and one of these rings is different from the others, but you don't know if it is
+# lighter or heavier than the others. Identify the special ring in three weighing and determine whether it is
+# lighter or heavier than the others.
 
 # Source of the Problem:  "An Engineering Approach to Digital Design," by William Fletcher.
 
 # Author of this Program:  Michael Jablonski, NR Systems, Inc., River Heights, Utah USA
 
-# The solution to the 12 rings problem, which I used the specification/requirements for this program can be found
+# The solution to the 12 rings problem, which I used as the specification/requirements for this program can be found
 # here:
 
 # https://www.mathsisfun.com/pool_balls_solution.html
+
+# Supporting documentation for this program:  12 rings truth tables.pdf
+
+# Program author:  Michael Jablonski, NR Systems Inc.
 
 import random
 
@@ -290,7 +294,7 @@ def test_the_rings_class():
 
 # Main Program
 
-# # Randomly select the special ring and its weight and then find that ring and determine if it is light or heavy.
+# Randomly select the special ring and its weight and then find that ring and determine if it is light or heavy.
 
 ring_number = random.randint(0, 11)
 ring_weight = random.randint(0, 1)
